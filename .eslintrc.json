@@ -1,0 +1,54 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb"],
+  "rules": {
+    "semi": [
+      2,
+      "never"
+    ],
+    "import/order": [
+      "error"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "camelcase": 0,
+    "no-console": 1,
+    "space-before-function-paren": 0,
+    "import/no-unresolved": 0,
+    "import/no-named-as-default": 0,
+    "react/no-array-index-key": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-first-prop-new-line": 1,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "maximum": 4
+      }
+    ],
+    "import/no-anonymous-default-export": 0,
+
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all"
+      }
+    ],
+    "no-empty-function": 0,
+    "no-undef": "error",
+    "import/extensions": 0,
+    "react/function-component-definition": [
+      2,
+      { "namedComponents": "arrow-function" }
+    ],
+    "default-param-last": 0
+  }
+}
